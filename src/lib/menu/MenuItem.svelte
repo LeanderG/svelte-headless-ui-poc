@@ -1,11 +1,9 @@
 <script lang="ts">
 	import { getContext, onMount, tick } from 'svelte';
 	import { Focus } from '../calculate-active-index';
-
 	import { useId } from '../use-id';
 	import { MenuContext, throwIfMenuContextMissing } from './menu';
 	import type { StateDefinition, MenuItemDataRef } from './menu';
-
 	export let id = `headlessui-menu-item-${useId()}`;
 	export let disabled = false;
 
