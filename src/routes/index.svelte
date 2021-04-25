@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Menu from '$lib/menu/menu.svelte';
+	import Menu from '$lib/menu/Menu.svelte';
 	import MenuButton from '$lib/menu/MenuButton.svelte';
 	import MenuItem from '$lib/menu/MenuItem.svelte';
 	import MenuItems from '$lib/menu/MenuItems.svelte';
